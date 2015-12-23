@@ -371,6 +371,8 @@ Func _SendKeyBinding1()
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
 			Send($ReadHotKeyData)
+		Else
+			Send($ReadHotKeyData)
 		EndIf
 	EndIf
 EndFunc   ;==>_SendKeyBinding1
@@ -384,6 +386,8 @@ Func _SendKeyBinding2()
 		If StringInStr($ReadHotKeyData, "text") Then
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
+			Send($ReadHotKeyData)
+		Else
 			Send($ReadHotKeyData)
 		EndIf
 	EndIf
@@ -399,6 +403,8 @@ Func _SendKeyBinding3()
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
 			Send($ReadHotKeyData)
+		Else
+			Send($ReadHotKeyData)
 		EndIf
 	EndIf
 EndFunc   ;==>_SendKeyBinding3
@@ -412,6 +418,8 @@ Func _SendKeyBinding4()
 		If StringInStr($ReadHotKeyData, "text") Then
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
+			Send($ReadHotKeyData)
+		Else
 			Send($ReadHotKeyData)
 		EndIf
 	EndIf
@@ -427,6 +435,8 @@ Func _SendKeyBinding5()
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
 			Send($ReadHotKeyData)
+		Else
+			Send($ReadHotKeyData)
 		EndIf
 	EndIf
 EndFunc   ;==>_SendKeyBinding5
@@ -440,6 +450,8 @@ Func _SendKeyBinding6()
 		If StringInStr($ReadHotKeyData, "text") Then
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
+			Send($ReadHotKeyData)
+		Else
 			Send($ReadHotKeyData)
 		EndIf
 	EndIf
@@ -455,6 +467,8 @@ Func _SendKeyBinding7()
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
 			Send($ReadHotKeyData)
+		Else
+			Send($ReadHotKeyData)
 		EndIf
 	EndIf
 EndFunc   ;==>_SendKeyBinding7
@@ -468,6 +482,8 @@ Func _SendKeyBinding8()
 		If StringInStr($ReadHotKeyData, "text") Then
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
+			Send($ReadHotKeyData)
+		Else
 			Send($ReadHotKeyData)
 		EndIf
 	EndIf
@@ -483,6 +499,8 @@ Func _SendKeyBinding9()
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
 			Send($ReadHotKeyData)
+		Else
+			Send($ReadHotKeyData)
 		EndIf
 	EndIf
 EndFunc   ;==>_SendKeyBinding9
@@ -496,6 +514,8 @@ Func _SendKeyBinding10()
 		If StringInStr($ReadHotKeyData, "text") Then
 			$CustomText = InputBox("Custom Text", "Please input what you would like to add to this string!")
 			$ReadHotKeyData = StringReplace($ReadHotKeyData, "text", $CustomText)
+			Send($ReadHotKeyData)
+		Else
 			Send($ReadHotKeyData)
 		EndIf
 	EndIf
